@@ -66,7 +66,7 @@ const DetailView: React.FC<DetailViewProps> = ({ allPokemon }) => {
         </div>
 
         <div className="image-wrapper-lol-wut">
-          <img src={currentPokemon.sprites.other['official-artwork'].front_default} alt="Pokemon Image"/>
+          <img src={currentPokemon.sprites.other['official-artwork'].front_default} alt="Pokemon"/>
         </div>
       </div>
     </div>

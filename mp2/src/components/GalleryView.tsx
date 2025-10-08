@@ -52,7 +52,7 @@ const GalleryView: React.FC<GalleryViewProps> = ({ allPokemon }) => {
           return (
             <Link key={pokemon.id} to={`/detail/${pokemon.id}`} className="pokemon-card">
               <div className="image-wrapper">
-                <img src={imageUrl} className="pokemon-image" alt="Pokemon Image"
+                <img src={imageUrl} className="pokemon-image" alt="Pokemon"
                 />
               </div>
               <div className="pokemon-info">
