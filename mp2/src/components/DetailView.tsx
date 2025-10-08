@@ -1,5 +1,5 @@
 import React from 'react';
-import { useParams, useNavigate, Link } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import { Pokemon } from '../types/pokemon';
 import './DetailView.css';
 
@@ -66,7 +66,7 @@ const DetailView: React.FC<DetailViewProps> = ({ allPokemon }) => {
         </div>
 
         <div className="image-wrapper-lol-wut">
-          <img src={currentPokemon.sprites.other['official-artwork'].front_default}/>
+          <img src={currentPokemon.sprites.other['official-artwork'].front_default} alt="Pokemon Image"/>
         </div>
       </div>
     </div>
