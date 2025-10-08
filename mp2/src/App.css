@@ -1,0 +1,15 @@
+.App {
+  height: 100vh;
+}
+
+.navbar {
+  background-color: darkgray;
+  padding: 10px 10px;
+  display: flex;
+}
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
+  padding: 10px 10px;
+}

@@ -1,0 +1,160 @@
+.details {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+
+.nav-button {
+  padding: 10px 10px;
+  font-size: 1rem;
+  border: 2px solid transparent;
+  background-color: blue;
+  color: white;
+  border-radius: 8px;
+}
+
+.pokemon-card {
+  background: white;
+  border: 2px solid black;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.image-wrapper-lol-wut {
+  background: lightcyan;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stats-wrapper {
+  padding: 40px;
+}
+
+.nameid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+
+.name {
+  font-size: 2rem;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.id {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.types-wrapper {
+  margin-bottom: 30px;
+}
+
+.types {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.type {
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+.normal-type { 
+  background-color: #808080; 
+}
+.fire-type { 
+  background-color: orange; }
+.water-type { 
+  background-color: blue; 
+  color: white;
+}
+.electric-type { 
+  background-color: yellow;
+}
+.grass-type { 
+  background-color: darkgreen; 
+  color: white; 
+}
+.ice-type { 
+  background-color: lightblue; 
+}
+.fighting-type { 
+  background-color: red; 
+}
+.poison-type { 
+  background-color: purple; 
+  color: white
+}
+.ground-type { 
+  background-color: brown; 
+  color: white; 
+}
+.flying-type { 
+  background-color:  cyan;}
+.psychic-type { 
+  background-color: #F85888; 
+}
+.bug-type { 
+  background-color: lightgreen; 
+}
+.rock-type { 
+  background-color: darkgray;
+}
+.ghost-type { 
+  background-color: darkmagenta;
+ }
+.dragon-type { 
+  background-color: lightcoral; 
+}
+.dark-type { 
+  background-color: black; 
+  color: white;
+}
+.steel-type { 
+  background-color: silver; 
+}
+.fairy-type { 
+  background-color: violet; 
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.stat {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.stat-type {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.stat-val {
+  font-size: 2rem;
+  font-weight: bold;
+}
